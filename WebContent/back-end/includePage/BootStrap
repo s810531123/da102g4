@@ -1,0 +1,2 @@
+    <script src="<%=request.getContextPath()%>/back-end/vendors/popper/popper.min.js"></script>
+    <script src="<%=request.getContextPath()%>/back-end/vendors/bootstrap/js/bootstrap.min.js"></script>

@@ -1,0 +1,77 @@
+.color-manto {
+	border-color: none;
+	text-align: center;
+}
+.date {
+      border-style: solid;
+      border-left: none;
+      border-right: none;
+      border-top-width: 2px;
+      border-bottom-width: 2px;
+      border-color: #000;
+      border-collapse: 0px;
+      column-width: 200px;
+} 
+.dateday1{
+      text-align: center;
+}
+
+.botton {
+      border-bottom-style: solid;
+      border-color: #000;
+      text-align: center;
+}
+
+table{
+      margin-left:auto;
+      margin-right:auto;
+      font-size: 22px;
+}
+
+tr {
+    text-align: center;
+    height: 80px;
+}
+
+tr.one{
+       background-color: #F0FFFF;
+       border-top: 2px solid black;
+       border-bottom: 2px solid black;
+}
+
+tr.two{
+       background-color: #ffffdf;
+}
+tr.three{
+        background-color: #ffffaa;
+}
+
+tr.four{
+        background-color: #d3ff93;
+        border-bottom: 2px solid black;/*加底線*/
+}
+
+th {
+    text-align: center;
+    font-family:Microsoft JhengHei;
+}
+
+td{
+   font-size: 20px;
+   text-align: left;
+}
+
+/*文字內容*/
+.day1 {
+       width: 300px;
+}
+
+.day2 {
+       width: 300px;
+}
+
+.rightt{
+	float:right !important;
+	
+}
+

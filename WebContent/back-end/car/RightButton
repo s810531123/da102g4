@@ -1,0 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="row">
+				<div class="col-lg-10 cb course">
+					<span class="lightgreen">美</span><span class="lightblue">心</span><span
+						class="pink">幼</span><span class="gold">兒</span><span class="red">園</span>
+					<span class="lightgreen">娃</span><span class="gold">娃</span><span
+						class="pink">車</span><span class="lightblue">管</span><span class="lightgreen">理</span>
+				</div>
+			</div>

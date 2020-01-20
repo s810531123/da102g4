@@ -1,0 +1,56 @@
+/* * { */
+/* 		box-sizing: border-box; */
+/* 		border: 1px rgb(115, 104, 93) solid; */
+/* 	} */
+	div.addCar{
+		color: #fff;
+		font-size: 0;
+		text-align: left;
+		border: 1px rgb(115, 104, 93) solid;
+		height: 25rem;
+		font-family: "敺株�迤暺��";
+		background: rgb(115, 104, 93);
+		border-radius: 10px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+		border-collapse: collapse;
+		padding: 2rem;
+		font-size: 2rem;
+	}
+	
+	div.return {
+	 	float:right;
+	 	right: 5%;
+	 	position: relative;
+	 	border-radius: 10px;
+	 	padding: 3px 5px;
+	 	background-color: #73685d;
+	 	color: #fff;
+	 	background: #73685d;
+	 	box-shadow: 0 2px 5px rgba(0,0,0,.25);
+	 	font-size: 2em;
+	 	text-decoration: none;
+	 	top: -5rem;
+	}
+	
+	input.addCar {
+		line-height: 1.5rem;
+	}
+	b.addCar {
+		position: relative;
+		top: 6px;
+		margin: 0px 20px;
+	}
+	button.addCar{
+		background: rgba(133,146,158,0.8);
+		color: #fff;
+		border-radius: 10px;
+		padding: 3px 5px;
+		position: relative;
+		left: 5px;
+		top: 5rem;
+		font-size: 1.5rem;
+		margin: 0px 20px;
+		padding: 3px 5px;
+	}
+	
+	

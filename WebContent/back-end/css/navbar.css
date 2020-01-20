@@ -1,0 +1,63 @@
+nav{
+  background-color: white;
+}
+#main-nav{
+  border-bottom:7px solid lightyellow ;
+
+  background: linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -moz-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -webkit-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -o-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+/*opacity: 0.5;*/
+}
+
+.main-nav-change{
+  border-bottom:7px solid lightyellow ;
+
+  background: linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -moz-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -webkit-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+background: -o-linear-gradient(38deg, rgba(173, 216, 230, 0.9)30%, rgba(36, 172, 240, 0.8)100%); 
+opacity: 0.7;
+}
+
+.navbar-nav li a {
+    line-height: 59px;
+    height: 59px;
+    padding-top: 0;
+}
+.logo{
+  cursor: pointer;
+  width: 150px;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+  /*left: -100px;*/
+  margin-right: 5px;
+  z-index: 1;
+}
+  #mainlogo{
+    color: red;
+    font-size: 23px;
+    transition: 0.4s;
+  }
+  #mainlogo:hover{
+    font-size: 25px;
+  }
+  .alink{
+    color: white!important;
+    font-size: 30px;
+    font-weight:900;
+
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px,
+    rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, 
+    rgba(0, 0, 0, 0.1) 0px 6px 1px, rgba(0, 0, 0, 0.1) 0px 0px 5px, rgba(0, 0, 0, 0.3) 0px 1px 3px,
+    rgba(0, 0, 0, 0.15) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, 
+    rgba(0, 0, 0, 0.1) 0px 20px 20px;
+  }
+  .alink:hover{
+/*    background-color: rgba(80,80,80,0.9);*/
+    color: gold !important;
+  }

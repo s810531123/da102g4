@@ -1,0 +1,60 @@
+.add_h1{
+	font-size: 45px;
+	line-height: 105px;
+}
+body{
+	margin-left:auto 0px;
+	margin-right:auto 0px;
+}
+
+.submit{
+	border-radius: 15px;
+}
+
+.reset{
+	border-radius: 15px;
+}
+
+.submit:hover{
+	color:green;
+}
+.reset:hover{
+	color:red;
+}
+.pre:hover{
+	color:blue;
+}
+.pre{	
+	border-radius:10px;
+	float:right;
+	margin-bottom: 50px;
+}
+
+td{
+	background: #B0C4DE;
+}
+
+.form_add{
+	background-color: #B0C4DE;
+	border-radius: 15px;
+}
+
+.table_b{
+	font-size: 22px;
+}
+
+
+
+
+/*******Amazing-button********/
+
+.quick_btn{
+	width:80px;
+	height:80px;
+	border-radius: 40px;
+	background-color: #CCCCFF;
+}
+
+.quick_btn:hover{
+	color: red;
+}

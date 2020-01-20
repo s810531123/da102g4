@@ -1,0 +1,42 @@
+table {
+  border: 2px #a39485 solid black;
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+input.pre{
+	margin-top: 10px;
+}
+
+b.search_text{
+	font-size: 32px;
+}
+
+.table_top{
+	font-size: 20px;
+}
+
+form{
+	margin: 14px;
+}
+
+.tt{
+	font-size:20px;
+	position: fixed;
+	right:1.2%;
+	top:40%;
+}
+img.edit_img{
+	width:100px;
+	height:100px;
+	position:fixed;
+	right:2%;
+	top:44%;
+	border-radius:195px;
+	border: 5px solid lightblue;
+}

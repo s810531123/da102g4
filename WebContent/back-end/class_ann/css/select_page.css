@@ -1,0 +1,142 @@
+/**************** button **********************/
+  .search_btn{
+  	border-radius: 15px;
+  	float:left;
+    color: blue;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .search_btn:hover{
+  	opacity: 0.79;
+  }
+  .new_btn{
+  	border-radius: 15px;
+  	float:left;
+    margin-left: 20px; 
+    color: red;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .new_btn:hover{
+  	opacity: 0.79;
+  }
+  
+  
+  
+/***************** table ***********************/
+  body {
+  background: #f5f5f5
+}
+
+table {
+  border: 2px #a39485 solid black;
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+thead {
+  font-weight: bold;
+  color: #fff;
+  background: #778899;
+} 
+ td, th {
+  padding: 1em .5em;
+  vertical-align: middle;
+/*   text-align: center; */
+  font-size: 15px;
+} 
+ td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+a {
+  color: #73685d;
+}
+
+
+.table_b{
+	font-size: 22px;
+}
+
+.table_bb{
+	font-size: 18px;
+	color: #666666;
+}
+
+.btn_update{
+	border-radius: 15px;
+	color: #4169E1;
+}
+.btn_update:hover{
+	opacity: 0.87;
+}
+
+.btn_delete{
+	border-radius: 15px;
+	color: #FF6347;
+}
+.btn_delete:hover{
+	opacity: 0.87;
+}
+
+
+/******************* table-RWD **********************/
+ @media all and (max-width: 768px) {
+    
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  th {
+    text-align: right;
+  }
+  
+  table {
+    position: relative; 
+    padding-bottom: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  }
+  
+  thead {
+    float: left;
+    white-space: nowrap;
+  }
+  
+  tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  th {
+    border-bottom: 1px solid #a39485;
+  }
+  
+  td {
+    border-bottom: 1px solid #e5e5e5;
+  }
+ 
+ 
+/*  picture */
+img.mypic{
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+ 

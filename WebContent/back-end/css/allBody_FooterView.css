@@ -1,0 +1,23 @@
+
+
+  *{
+    margin: 0px;
+    /*嚙踝嚙踝蕭賹蕭謅蕭��蕭謅��*/
+    font-family: Russo, Noto ,'��嚙踐�縣��嚙踝蕭',sans-serif;
+    outline:none;
+  }
+	body{
+		background-color: rgba(20,20,20,1);
+		text-align: center;
+		color: white;
+    	z-index: 0;
+	}
+
+  #sticky-footer {
+  /*margin-top: 50px;*/
+  width: 100%;
+  flex-shrink: none;
+  position: absolute;
+  display: block;
+  bottom: 0;
+}

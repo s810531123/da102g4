@@ -1,0 +1,120 @@
+h1{
+    font-size: 40px;
+    line-height: 12px;
+    font-family: Microsoft JhengHei;
+    color: #6495ED;
+    text-align: center;
+} 
+h1.up_h1{
+	font-size: 40px;
+	line-height: 70px;
+}
+h3.select_h3{
+	font-size:30px;
+	line-height: 60px;
+}
+  .search_btn{
+  	border-radius: 5px;
+  	float:left;
+    color: blue;
+    box-sizing: border-box;
+  }
+  .search_btn:hover{
+  	opacity: 0.79;
+  }
+  .new_btn{
+  	border-radius: 5px;
+  	float:left;
+    margin-left: 20px; 
+    color: red;
+    box-sizing: border-box;
+  }
+  .new_btn:hover{
+  	opacity: 0.79;
+  }
+  body {
+/*   padding:1.5em; */
+  background: #f5f5f5
+}
+
+table {
+  border: 2px #a39485 solid black;
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/*th {
+  text-align: left;
+}*/
+  
+thead {
+  font-weight: bold;
+  color: #fff;
+  background: #778899;
+}
+  
+ td, th {
+  padding: 1em .5em;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+}
+  
+ td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+a {
+  color: #73685d;
+}
+  
+ @media all and (max-width: 768px) {
+    
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  th {
+    text-align: right;
+  }
+  
+  table {
+    position: relative; 
+    padding-bottom: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  }
+  
+  thead {
+    float: left;
+    white-space: nowrap;
+  }
+  
+  tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  th {
+    border-bottom: 1px solid #a39485;
+  }
+  
+  td {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .pre{
+	 margin-top:10px;
+  }
+ 

@@ -1,0 +1,93 @@
+.head{
+			font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,sans-serif;
+			border: 0;
+			height: 100px;
+			width: 150px;
+			text-align: center;
+			font-size: 40px;
+         background-color: aquamarine;
+         opacity: 0.8;
+		}
+      .body{
+         background-image:url('Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg');
+         background-color: transparent;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background:rgba(170,230,230,0.2) !important;
+      }
+		table.calendar {
+			margin-left:auto; 
+			margin-right:auto;
+			margin-top: 20px;
+			height:700px;
+			width:1400px;
+			background:rgba(170,230,230,0.2);
+		}
+		th{
+			max-height:50px;
+			cursor: pointer;
+		}
+		td{
+			font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			max-height: 100px !important;
+			width: 150px;
+			text-align: center;
+/*          background-color: lightgray; */
+         opacity: 0.8;
+         cursor: pointer;
+		}
+      .days{
+         background-color: lightyellow;
+         opacity: 0.8;
+      }
+      .own{
+      	background:rgba(170,230,230,0.2) !important;
+      }
+      .lightbox1{
+      
+		  border: 0px;
+		  display: none;
+		  z-index: 10;
+		  position: fixed;
+		  height: 75%;
+		  width: 50%;
+		  margin-left:300px !important;
+		  margin-top:0 !important;
+		  color:black;
+		  z-index:50;
+/* 		  background: linear-gradient(180deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.6)200%);  */
+/* 		  background:rgba(170,230,230,1); */
+		  background:honeydew;
+		  box-shadow:3px 3px 4px 4px rgba(0, 0, 0, 0.7);
+      }
+      .lightboxinner{
+      	top: 0;
+	    right: 0;
+	    bottom: 25%;
+	    left: 0;
+	    margin:auto;
+	    position: relative;
+	    width: 750px;
+	    z-index:50;
+      }
+      #close{
+/*       	margin-top: 550px !important; */
+      }
+      
+      .high{
+      	line-height: 20px;
+      	margin:0 auto !important;
+      }
+      .high div{
+      	margin:0 auto !important;
+      }
+      
+      #down{
+      	cursor: pointer;
+      }
+      #up{
+      	cursor: pointer;
+      }
+      

@@ -1,0 +1,24 @@
+ <title>Background</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/back-end/vendors/bootstrap/css/bootstrap.min.css">
+    <script src="<%=request.getContextPath()%>/back-end/vendors/jquery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<%=request.getContextPath()%>/back-end/JS/index_login.js"></script>
+    <script type="text/javascript" src="<%=request.getContextPath()%>/back-end/JS/sideBar.js"></script>
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/back-end/css/backgroundContext.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/back-end/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/back-end/css/allBody_FooterView.css">
+    
+    <style type="text/css">
+    /*本地字體引入*/
+    @font-face {
+        font-family: Russo;
+        src: url('fonts/RussoOne-Regular.ttf');
+        unicode-range: U+00-024F;
+    }
+
+    @font-face {
+        font-family: Noto;
+        src: url('fonts/NotoSansTC-Medium.otf');
+        unicode-range: U+4E00-9FFF;
+    }
+    </style>

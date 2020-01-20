@@ -1,0 +1,44 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="py-2 bg-primary">
+      <div class="container">
+        <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+          <div class="col-lg-12 d-block">
+            <div class="row d-flex">
+              
+              <div class="col-lg-4 col-md-5 pr-4 d-flex topper align-items-center">
+                <div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+                <span class="text">桃園市中壢區資策會</span>
+              </div>
+              <div class="col-lg-3 col-md pr-4 d-flex topper align-items-center">
+                <div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                <span class="text">DA102G4@gmail.com</span>
+              </div>
+              <div class="col-lg-3 col-md pr-4 d-flex topper align-items-center">
+                <div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                <span class="text">+ 48825252</span>
+              </div>
+              <div class="col-lg-2 col-md  topper">
+                <c:if test="${stp.st_name == null}">
+                	<span class="text login" id="Glogin">家長登入</span>
+                </c:if>
+                <c:if test="${stp.st_name != null}">
+                	<jsp:useBean id="guardianSvc" scope="page" class="com.guardian.model.GuardianService" />
+
+	                			<form action="<%= request.getContextPath()%>/student/student.do" method="post">
+			                		<c:forEach var="guardianVO" items="${guardianSvc.all}">
+	                					<c:if test="${stp.gd_id eq guardianVO.gd_id}">
+	                						<a href="<%= request.getContextPath()%>/front-end/personInfo.jsp" style='color:black;'>
+	                							${guardianVO.gd_name}  </a>您好
+	                					</c:if>
+	                				</c:forEach>
+			                		<input type="hidden" name="action" value="logout">
+			                		<input type="hidden" value="${stp}">
+			                		<button><img src="<%=request.getContextPath()%>/back-end/images/logout.png" width="20px" height="20px" title="登出"></button>
+	                			</form>
+                </c:if>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

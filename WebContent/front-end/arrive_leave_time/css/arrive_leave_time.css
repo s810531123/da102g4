@@ -1,0 +1,64 @@
+.head{
+			font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,sans-serif;
+			border: 0;
+			height: 100px;
+			width: 150px;
+			text-align: center;
+			font-size: 40px;
+         background-color: aquamarine;
+         opacity: 0.8;
+		}
+      .body{
+         background-image:url('Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg');
+         background-color: transparent;
+         background-repeat: no-repeat;
+         background-size: cover;
+/*          background:rgba(170,230,230,0.2) !important; */
+      }
+		table{
+			margin-left:auto; 
+			margin-right:auto;
+			margin-top: 20px;
+			margin-bottom:50px !important;
+			height:700px;
+			width:1400px;
+			background:rgba(170,230,230,0.2);
+			color:black;
+		}
+		th{
+			max-height:50px;
+			cursor: pointer;
+			text-align: center;
+		}
+		td{
+			font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			max-height: 100px !important;
+			width: 150px;
+			text-align: center;
+/*          background-color: lightgray; */
+         opacity: 0.8;
+         cursor: pointer;
+		}
+      .days{
+         background-color: lightyellow;
+         opacity: 0.8;
+      }
+      .own{
+      	background:rgba(170,230,230,0.2) !important;
+      	margin-bottom:70px !important;
+      	margin-bottom: 100px;
+      	height:800px;
+      	margin-top:20px;
+      	
+      }
+      
+      
+      #down{
+      	cursor: pointer;
+      }
+      #up{
+      	cursor: pointer;
+      }
+      

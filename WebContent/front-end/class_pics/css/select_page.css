@@ -1,0 +1,160 @@
+
+.h1_pic{
+	font-size: 50px;
+	text-align: center;
+}
+
+
+.select_do{
+	display: inline-block;
+}
+
+img#add_page{
+	width: 120px;
+	margin-right: 20px;
+}
+
+img#add_page:hover{
+	width: 122px;
+}
+
+img#search_page{
+	width: 120px;
+	margin-right: 20px;
+}
+
+img#search_page:hover{
+	width: 122px;
+}
+
+.into{
+	display: inline-block;
+/* 	border: 2px blue solid; */
+	width: 100%;
+	height: 90%;
+	z-index: 100;
+}
+
+img.in_pic{
+	width: 28%;
+	height: 30%;
+	border: 4px dashed pink;
+	margin: 5px;
+	opacity: 0.65;
+	z-index: 100;
+	vertical-align:middle;
+}
+
+img.in_pic:hover{
+	opacity: 1;
+	border-radius: 10px;
+	border: 10px solid; 
+}
+
+img#add_page{
+	z-index: 100;
+}
+
+div#lightbox.lightbox_add{
+	border-radius:20px;
+	position:absolute;
+	top:20%;
+	right:28%;
+	width:45%;
+	height:63%;
+	background-color: #99BBFF;
+	z-index:500;
+	display:none;
+	position: fixed;
+}
+
+#displayAddPic{
+	width: 200px;
+	height: 265px;
+}
+
+.table{
+	text-align: right;
+}
+
+b.title{
+	font-size: 25px;
+	color: black;
+	line-height: 35px;
+}
+
+.td_b{
+	font-size: 18px;
+	color: black;
+}
+
+
+#lightbox2{
+	display:none;
+}
+
+#lightbox3{
+	display:none;
+}
+
+.delete_text{
+	color:#FFAA33;
+	font-size: 30px;
+}
+
+input#delete{
+	border-radius: 15px;
+	font-size: 28px; 
+	padding: 8px;
+	margin-right: 25px;
+}
+input#delete:hover{
+	opacity: 0.82;
+	color:red;
+}
+
+input.close2{
+	border-radius: 15px;
+	font-size: 28px; 
+	padding: 8px;
+}
+input.close2:hover{
+	opacity: 0.82;
+	color:green;
+}
+
+/* 刪除的燈箱 */
+form.light_delete{
+	border-radius: 25px;
+	border: 2px solid;
+	width:360px;
+	background-color:#E0FFFF;
+	border-color: #CCDDFF;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 700;
+	left:48%;
+	top:80%;
+}
+
+
+
+/* 觀看的燈箱 */
+.see_f{
+	background-color:#FFAA33;
+	border-color: #CCDDFF;
+	border: 2px solid;
+	padding:8px;
+	border-radius: 25px;
+	width: 300px;
+	height:140px;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 700;
+	left:29%;
+	top:20%;
+}
+
+.pic_b{
+	text-align: left;
+}

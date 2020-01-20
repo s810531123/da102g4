@@ -1,0 +1,18 @@
+<div class="row">
+            <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark fixed-top ">
+                <div class="container-fluid">
+                    <img src="<%=request.getContextPath()%>/back-end/images/icon.png" class="logo">
+                    <a href="welcome.html" class="navbar-brand" id="mainlogo"></a>
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="<%=request.getContextPath()%>/back-end/Login.jsp" class="nav-link alink"><i>Home</i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link alink"><img src=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>

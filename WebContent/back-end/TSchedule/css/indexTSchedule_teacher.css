@@ -1,0 +1,171 @@
+
+	div#nav {
+		height: 5rem;
+		font-size: 0;
+		box-sizing: border-box;
+		font-family: 'Ma Shan Zheng', cursive; 
+/* display: none;		 */
+	}
+
+	table#main {	
+		height: 60rem;
+	    width: 85%;
+		text-align: center;
+    	margin: 0px auto;
+/* display: none;			 */
+		
+		background-image: url(../images/Logo3.png);		
+		z-index: 10;
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		box-sizing: border-box;
+	}
+		
+	tr#title,#row0,#row1,#row2,#row3,#row4,#row5{
+		width: 100%;
+		font-size: 0;
+		height: calc(95%/6);
+		border-left :3px solid #999;
+		box-sizing: border-box;
+		font-family: 'Ma Shan Zheng', cursive; 
+		display: inline-block;
+	}
+
+	tr#title {
+		height: 5%;
+		border-top:3px solid #999;
+		box-sizing: border-box;
+	}
+
+	td.title,td.box {
+		display: inline-block;
+		font-size: 1rem;
+		width: calc(100%/7);
+		border-right:3px solid #999;
+		border-bottom :3px solid #999;
+		box-sizing: border-box;
+    	padding: 0px;
+	}
+	
+	div#year_month {
+		display: inline-block;
+		font-size: 1.5rem;
+		height: 100%;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 4.5rem;
+		box-sizing: border-box;
+		font-family: 'Ma Shan Zheng', cursive; 
+	}
+	button.nav{
+		border: 1px solid orange;
+		height: 80%;
+		vertical-align: middle;
+		margin: 0px 3%;
+		border-radius: 8px;
+		font-size: 1.5rem;
+		overflow: hidden;
+		background-color: #FAD7A0  ;
+		box-shadow: 5px 7px 11px #333333; 
+		-webkit-box-shadow: 5px 7px 11px #333333; 
+		-moz-box-shadow: 5px 7px 11px #333333; 
+		box-sizing: border-box;
+		display: inline-block;
+	}
+	
+	
+	td.title{
+		height: 100%;
+		line-height: 2.2em;
+		background-color: rgba(96,162,243,0.9);
+		box-sizing: border-box;
+		font-family: 'Ma Shan Zheng', cursive; 
+	}
+
+
+	td.box{
+		height: 100%;
+		box-sizing: border-box;
+	}
+	div.date {
+		height: 20%;
+		line-height: 1.7em;
+		/**/
+		z-index: 50;	
+		background-color: rgba(240,240,240,0.9);	
+		box-sizing: border-box; 
+		font-family: 'Ma Shan Zheng', cursive; 
+	}
+
+	div.class_sort {
+		height: 80%;
+		position: relative;
+	/**/	
+		z-index: 50;	
+		background-color: rgba(240,240,240,0.9);	
+		box-sizing: border-box;
+	}
+	
+
+		
+	button:hover{
+		opacity: 1;
+		background-color: #F5B041;
+		box-sizing: border-box;
+	}
+	
+	div#nav div, table#main div {
+		margin: 0px;
+	}
+	
+	span.span{
+	    display: inline-block;
+	   	z-index: 100;
+	   	background: rgba(230,120,200,0.5);
+   		border-radius: 10px;
+	   	margin-bottom: 2px;
+	   	width: 80%;
+    }
+    
+
+    
+    @media (max-width: 1330px) {
+	
+	    
+	    table#main{
+			width: 100%;
+	    }
+	
+}
+
+	@media (max-width: 1140px) {
+		
+		table#main{
+			width: 100%;
+	   	}
+	
+		span.span{ 
+ 	    
+	 	   	width: 95%; 
+	 	   	font-size: 12px; 
+     	} 
+		
+	}
+	
+	@media (max-width: 920px){
+	
+     	button.nav{
+     		font-size: 20px;
+     	}
+	}
+	
+	
+	
+	
+	@media (max-width: 835px){
+	
+		button.nav{
+     		font-size: 18px;
+     	}
+	}

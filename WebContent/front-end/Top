@@ -1,0 +1,81 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+      <div class="container d-flex align-items-center">
+        <div class="g4icon">
+          <img src="<%=request.getContextPath()%>/front-end/images/icon.png" height="100px" width="150px">
+        </div>
+        
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="<%=request.getContextPath()%>/front-end/FrontIndex.jsp" class="nav-link pl-0">首頁</a></li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                園所介紹
+              </a>
+              <div class="dropdown-menu" id="YY" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">園所環境</a>
+                <a class="dropdown-item" href="#">師資介紹</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/Menu/ViewMenu.jsp">相關資源</a>
+                <!--  <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                園所公告
+              </a>
+              <div class="dropdown-menu" id="YY" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">最新消息</a>
+                <a class="dropdown-item" href="#">補助訊息</a>
+                <a class="dropdown-item" href="#">園所公告</a>
+                <!--  <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+
+             <li class="nav-item dropdown">
+              <c:if test="${stp.st_name != null}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                家長專區
+              </a>
+              </c:if>
+              <div class="dropdown-menu" id="YY" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/student_leave_list/select_page.jsp">請假</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/course/index_1.jsp">選課</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/payment/PMF_front.jsp">線上繳費</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/CommBook/select_page.jsp">親子聯絡區</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/arrive_leave_time/arrive_leave_time.jsp">到校離校時間</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/payment/ASC_front.jsp">課後托育查詢</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/map/select_page.jsp"">幼童車即時位置</a>
+                
+                
+                
+                <!--  <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+            
+            
+            <li class="nav-item dropdown">
+              <c:if test="${stp.st_name != null}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                班級專區
+              </a>
+              </c:if>
+              <div class="dropdown-menu" id="YY" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/class_ann/select_page.jsp">班級公告</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/class_pics/select_page.jsp">班級相簿</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/front-end/class_msg/select_page.jsp">班級留言板</a>
+              </div>
+            </li>
+		<c:if test="${stp == null}">
+            <li class="nav-item"><a href="<%=request.getContextPath()%>/front-end/ResForm/ResAdd_front3.jsp" class="nav-link">預約參觀</a></li>
+            <li class="nav-item"><a href="<%=request.getContextPath()%>/front-end/RegistrationForm1.jsp" class="nav-link">申請入學</a></li>
+        </c:if>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->

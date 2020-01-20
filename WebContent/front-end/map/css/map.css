@@ -1,0 +1,13 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #newMap {
+        height: 700px;
+        position: relative !important;
+        margin-top: 50px;
+      }
+      
+      .outer{
+      	width: 100% !important;
+      }
+      /* Optional: Makes the sample page fill the window. */
+     

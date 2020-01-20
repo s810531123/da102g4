@@ -1,0 +1,21 @@
+.color-manto {
+	border-color: none;
+	text-align: left;
+}
+table {
+	width: 100%;
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+table,th, td {
+	z-index: 3;
+	border: 1px solid #0068ad;
+}
+th, td{
+	padding: 5px;
+	text-align: center;
+}
+th{
+	background-color: #e7f3f4;
+}

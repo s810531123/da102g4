@@ -1,0 +1,48 @@
+
+button.btn-secondary {
+	margin-right: 20px;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+button.btn-link {
+	margin-left: 20px;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+button.btn-default {
+	margin-left: 0px;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+button.btn-success {
+	margin-right: 25px;
+	letter-spacing: 2px;
+	border-radius: 7px;
+	outline: none;
+}
+
+button.btn-warning {
+	margin-right: 25px;
+	letter-spacing: 2px;
+	border-radius: 7px;
+	outline: none;
+}
+
+button.btn-danger {
+	margin-right: 25px;
+	letter-spacing: 2px;
+	border-radius: 7px;
+	outline: none;
+}
+
+.own {
+	border: 0px;
+}
+
+.bg-blue {
+	background-color: #a3cfd1;
+}
+ 

@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="row">
+            <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark fixed-top ">
+                <div class="container-fluid">
+                    <img src="<%=request.getContextPath()%>/back-end/images/icon.png" class="logo">
+                    <a href="welcome.html" class="navbar-brand" id="mainlogo"></a>
+                    <div id="hi">
+			        	<form action="<%= request.getContextPath()%>/teacher/teacher.do" method="post">
+							<a href="<%=request.getContextPath()%>/back-end/teacher/personInfo.jsp" style="color:black;">
+                        		${tp.t_name} 
+                        	</a> 您好
+							<input type="hidden" name="action" value="logout">
+							<input type="hidden" name="tp" value="${tp}">
+							<button><img src="<%=request.getContextPath()%>/back-end/images/logout.png" width="20px" height="20px" title="登出"></button>
+						</form>                 	
+                    </div>
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="<%=request.getContextPath()%>/back-end/BackIndex.jsp" class="nav-link alink"><i>Home</i></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>

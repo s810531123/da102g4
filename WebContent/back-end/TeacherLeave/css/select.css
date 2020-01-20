@@ -1,0 +1,20 @@
+.error {
+	text-align: left;
+}
+
+.color-manto {
+	outline: none;
+	border-color: none;
+	text-align: left;
+	float:left  !important;
+	width: 100%;
+}
+
+.card-header {
+	text-align: center;
+}
+
+.fixImg {
+	width: 150px;
+	height: 150px;
+}

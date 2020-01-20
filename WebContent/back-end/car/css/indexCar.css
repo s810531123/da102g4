@@ -1,0 +1,46 @@
+table.car_index{
+	border: 1px #a39485 solid;
+	font-size: .9em;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+thead.car_index {
+	font-weight: bold;
+	color: #fff;
+	background: #73685d;
+}
+
+th.car_index {
+	padding: 2em 0em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+button.car_index {
+	
+	border-radius: 10px;
+}
+
+input {
+	height: 2rem;
+}
+
+img#imgCar{
+	position: relative;
+/* 	top: 8rem; */
+	height: 400px;
+}
+div#error {
+	height: 5rem;
+}
+/* div#addError { */
+/* 	position: relative; */
+/*     float: right; */
+/*     right: 10%; */
+/*     bottom: 50%; */
+/* } */

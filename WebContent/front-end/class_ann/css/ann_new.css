@@ -1,0 +1,22 @@
+.add_h1{
+	font-size: 45px;
+	line-height: 105px;
+}
+body{
+	margin-left:auto 0px;
+	margin-right:auto 0px;
+}
+.submit:hover{
+	color:green;
+}
+.reset:hover{
+	color:red;
+}
+.pre:hover{
+	color:blue;
+}
+.pre{	
+	border-radius:10px;
+	float:right;
+	margin-bottom: 50px;
+}

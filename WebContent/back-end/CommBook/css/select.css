@@ -1,0 +1,32 @@
+.error {
+	text-align: left;
+}
+
+.color-manto {
+	outline:none;
+	border-color: none;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+table,th, td {
+	z-index: 3;
+	border: 1px solid #0068ad;
+}
+th, td{
+	padding: 5px;
+	text-align: center;
+}
+.search{
+	width:30px;
+}
+
+hr{
+    border: 3px solid green;
+  	border-radius: 5px;
+}

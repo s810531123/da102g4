@@ -1,0 +1,129 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="col-lg-12 contentbox">
+            <div id="left" class="col-lg-2 col-md-2 cb div-gradient">
+                <br>
+                <div class="meiSin">
+                  <span class="blue">美</span>
+                  <span class="lightblue">心</span>
+                  <span class="pink">幼</span>
+                  <span class="gold">兒</span>
+                  <span class="red">園</span><br>
+                  <span class="lightgreen">管</span>
+                  <span class="gold">理</span>
+                  <span class="pink">平</span>
+                  <span class="lightblue">台</span>
+                </div>
+                <c:if test="${'園長' == tp.t_job}">
+	                <button class="collapsible">幼兒資訊</button>
+	                <div class="content">
+	                	<form action="<%=request.getContextPath()%>/back-end/student/listAllStudent.jsp">
+	                    	<button class="btn">管理幼兒資料</button><br>
+	                    </form>
+	                    <a href="<%=request.getContextPath()%>/back-end/car/select_page.jsp"><button class="btn">管理幼童車
+                        </button></a><br>
+                                        
+                  		<a href="<%=request.getContextPath()%>/back-end/arrive_leave_time/arrive_leave_time.jsp"><button class="btn">管理幼兒到離校
+                        </button></a><br>
+                        
+                  		<a href="<%=request.getContextPath()%>/back-end/payment/payment_Home.jsp">
+                    	 <button class="btn">管理繳費單</button></a><br>
+                     <a href="<%=request.getContextPath()%>/back-end/payment/ASC_Home.jsp">
+                    	 <button class="btn">查詢課後托育</button></a><br>
+	                </div>
+                </c:if>
+                <c:if test="${'園長' == tp.t_job}">
+                <button class="collapsible">管理班級</button>
+                <div class="content">
+                    <form action="<%=request.getContextPath()%>/back-end/class_manage/select_page.jsp">
+                    	<button class="btn">管理班級資料</button><br>
+                	</form>
+                	<form action="<%=request.getContextPath()%>/back-end/course/listAllCourse.jsp">
+                    	<button class="btn">管理選課</button><br>
+                    </form>
+                </div>
+                </c:if>
+                
+                <c:if test="${'園長' == tp.t_job}">
+                <button class="collapsible">管理教職員</button>
+                <div class="content">
+                    <form action="<%=request.getContextPath()%>/back-end/TSchedule/select_page.jsp">
+                    	<button class="btn">管理班表</button><br>
+                    </form>
+                     <a href="<%=request.getContextPath()%>/back-end/TSchedule/select_page.jsp">
+                     <button class="btn">管理排班表</button></a><br>
+                    <button class="btn">管理出缺勤</button><br>                 
+                    <button class="btn">安排代課老師</button><br>
+                    <form action="<%=request.getContextPath()%>/back-end/teacher/listAllTeacher.jsp">
+                    	<button class="btn">管理教師資料</button><br>
+                    </form>
+                    <FORM METHOD="post" ACTION="<%=request.getContextPath()%>/back-end/TeacherLeave/teacherLeave.do" class="card-text">
+						<input type="hidden" name="action" value="getAll_For_Display"> 
+						<button class="btn">審查教職員請假</button>
+					</FORM>
+                    <button class="btn">審查教職員資料更動</button><br>
+                </div>
+                </c:if>
+                <button class="collapsible">班級資料</button>
+                <div class="content">
+                    <button class="btn">管理託藥單</button><br>
+                    
+                   
+                    <form action="<%=request.getContextPath()%>/back-end/student_leave_list/select_page.jsp">
+                    	<button class="btn">幼兒請假</button><br>
+                    </form>
+                    
+                    
+                    
+                    <c:if test="${tp.t_job != '園長'}">
+                    <form action="<%=request.getContextPath()%>/back-end/CommBook/select_page.jsp">
+                    	<button class="btn">管理聯絡簿</button><br>
+                    </form>
+                    </c:if>
+                    
+                    <c:if test="${!('園長' != tp.t_job)}">
+                    	<form action="<%=request.getContextPath()%>/back-end/student/listStudentByCs_num.jsp">
+                    		<button class="btn">查詢幼兒名單</button><br>
+                    	</form>
+                    </c:if>
+                    <form action="<%=request.getContextPath()%>/back-end/class_pics/select_page.jsp">
+                    	<button class="btn">管理班級相簿</button><br>
+                    </form>
+                    <form action="<%=request.getContextPath()%>/back-end/class_ann/select_page.jsp">
+                    	<button class="btn">管理班級公告</button><br>
+                    </form>
+                    <c:if test="${!('園長' == tp.t_job)}">
+                    <form action="<%=request.getContextPath()%>/back-end/class_msg/select_page.jsp">
+                    	<button class="btn">管理班級留言板</button><br>
+                    </form>
+                    </c:if>
+                </div>
+                <button class="collapsible">教職員資料</button>
+                <div class="content">
+                    <c:if test="${'園長' == tp.t_job}">
+	                	<form action="<%=request.getContextPath()%>/back-end/teacher/listAllTeacher.jsp">
+	                		<button class="btn">查詢教職員</button><br>
+	                	</form>
+                	</c:if>
+                	<form action="<%=request.getContextPath()%>/back-end/TeacherLeave/select_page.jsp">
+                    	<button class="btn">請假作業</button><br>
+                    </form>
+                    <form action="<%=request.getContextPath()%>/back-end/TSchedule/select_page_teacher.jsp">
+                    	<button class="btn">查詢班表</button><br>
+                    </form>
+                    <button class="btn">查詢出缺勤</button><br>
+                </div>
+                <button class="collapsible">管理園所資訊</button>
+                <div class="content">
+                    <button class="btn">管理公告</button><br>
+                    <form action="<%=request.getContextPath()%>/back-end/Menu/menu_select_page.jsp">
+                    	<button class="btn">管理相關資源</button><br>
+                    </form>
+                </div>
+                <button class="collapsible">查看幼童車即時位置</button>
+                <div></div>
+                <c:if test="${'園長' == tp.t_job}">
+                	<form action="<%=request.getContextPath()%>/back-end/ResForm/getAllResForm.jsp">
+                    	<button class="collapsible">管理預約單</button>
+                    </form>
+                </c:if>
+            </div>

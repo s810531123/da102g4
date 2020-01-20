@@ -1,0 +1,171 @@
+
+  
+  .updateAddCourse{
+  float:left !important;
+  border: 0px !important;
+  display: none;
+  z-index: 1000 !important;
+  position: fixed !important;
+  height: 100% !important;
+  width: 100%px !important;
+  background: rgba(66,66,66,0.7) !important;
+}
+
+.displayUpdatePic{
+  display: block;
+  
+  /*margin-top: 10px;
+  margin-left: 150px;
+  float: right;
+  width: 350px;
+  height: 200px;*/
+  
+  margin-right: -20px;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+  width: 350px;
+  height: 210px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+   border-radius: 10px;
+}
+
+.lightbox{
+    top: 2%;
+    right: 0%;
+    bottom: 25%;
+    left: 0%;
+    margin:auto;
+    position: relative;
+    width: 1000px !important;
+	font-weight:700;
+	font-size:24px;
+
+    background: linear-gradient(180deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.6)200%); 
+    background: -moz-linear-gradient(310deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.6)200%); 
+    background: -webkit-linear-gradient(180deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.6)200%); 
+    background: -o-linear-gradient(10deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.6)200%); 
+
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+
+
+.courseName{
+	display:inline-block !important;
+}
+
+.introd{
+	background:lightgray !important;
+}
+
+.CourseTitle{
+   
+    display:flix !important;
+    font-size: 0px !important;
+	margin-bottom:20px !important;
+    background: linear-gradient(271deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.8)47%); 
+    background: -moz-linear-gradient(271deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.8)47%); 
+    background: -webkit-linear-gradient(271deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.8)47%); 
+    background: -o-linear-gradient(271deg, rgba(173, 217, 231, 1)0%, rgba(30, 169, 241, 0.8)47%); 
+    
+   }
+   
+   .CourseTitle div{
+    font-size: 20px;
+    margin-top: 10px auto;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px;
+    margin:5px auto !important;
+   
+   }
+   
+   .myCourse{
+   
+     
+	  display:flix !important;
+      font-size: 0 !important;
+      height: 50px !important;
+      box-sizing: border-box !important;
+	  margin:0px auto !important;
+      background-color: lightblue !important;
+      box-shadow: inset 19px 19px 67px -19px #FFFFFF;
+      -webkit-box-shadow: inset 19px 19px 67px -19px #FFFFFF;
+      -moz-box-shadow: inset 19px 19px 67px -19px #FFFFFF;
+      -o-box-shadow: inset 19px 19px 67px -19px #FFFFFF;
+      margin-bottom:20px !important;
+    
+   }
+   .myCourse div{
+      font-size: 20px !important;
+      margin: 0px !important;
+      top: 10% !important;
+      border: 0px !important;
+      font-weight:500 !important;
+	  margin:5px auto !important;
+
+   }
+   
+   .showCoures {
+    font-weight: 300 !important; 
+    display: inline-block !important;
+    padding: 5px !important;
+    margin: 0px auto auto auto !important;
+	margin:5px auto !important;
+	float:left;
+    
+
+   }
+   
+   .magnifier{
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  margin:0px auto !important;
+}
+.magnifier:hover{
+  width: 35px;
+  height: 30px;
+  /*cursor: pointer;*/
+}
+
+.outer{
+	min-height:400px;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.exit{
+	cursor: pointer;
+	width:60px;
+	height:60px;
+}
+
+.notCourse{
+	font-size:30px !important;
+	color:red !important;
+	font-weight:700 !important;
+	
+}
+.noCourse{
+	border:1px solid red !important;
+}
+
+.noback{
+	background:white;
+	width:60px;
+	height:60px;
+	border:0px;
+}
+
+.payOK{
+	font-weight:900;
+	color:green;
+}

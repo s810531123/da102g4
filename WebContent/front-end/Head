@@ -1,0 +1,20 @@
+<title>Kiddos - Free Bootstrap 4 Template by Colorlib</title>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/animate.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/magnific-popup.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/ionicons.min.css">  
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/flaticon.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/icomoon.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/style.css">  
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/icomoon.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/style.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/front-end/css/index_1.css">
